@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+.bolita{
+    background-color: aqua;
+    height: 30px;
+    width: 30px;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+.antena{
+    height: 40px;
+    width: 10px;
+    background-color: red;
+}
+.robot{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cara{
+    height: 200px;
+    width: 200px;
+    background-color: red
+}
+.ojos{
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circulito{
+    width:15px;
+    height:15px;
+    background-color: black;
+    border-radius: 50%;
+}
+.mirada{
+    display: flex;
+    justify-content: space-around;
+}
+.nariz{
+    height: 30px;
+    width: 30px;
+    background-color: yellow;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.boca{
+    height: 10px;
+    width: 100px;
+    background-color: wheat;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.cara{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cuello{
+    height: 30px;
+    width: 50px;
+    background-color: red;
+    margin: 0 auto;
+}
+.cuerpo{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.musculos{
+    background-color: aqua;
+    height: 50px;
+    width: 150px;
+}
+.cintura{
+    height: 15px;
+    width: 150px;
+    background-color: red;
+    margin: 0 auto;
+}
+.piernas{
+    height: 200px;
+    width: 230px;
+    background-color: red;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.circuitos{
+    height: 150px;
+    width: 50px;
+    background-color: aqua;
+}.circuitos1{
+    height: 180px;
+    width: 50px;
+    background-color: aqua;
+}
+.oreja1{
+    background-color: aqua;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.rostro{
+    display: flex;
+    align-items: center;
+}
+.mano1{
+    display: flex;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 55%;
+    margin-top: 30px;
+}
+.hombro{
+    height: 20px;
+    width: 230px;
+    background-color: aqua;
+}
+.arriba{
+    height: 60px;
+    width: 20px;
+    background-color: aqua;
+    margin: 0px 0px 0px -60px;
+}
+.mano2{
+    display: flex;
+    position: absolute;
+    flex-direction: column-reverse;
+    right: 53%;
+    transform: rotate(45deg);
+}
+.hombro2{
+    height: 20px;
+    width: 230px;
+    background-color: aqua;
+}
+.arriba2{
+    height: 60px;
+    width: 20px;
+    background-color: aqua;
+    margin: 0px 0px -60px 60px;
+}
